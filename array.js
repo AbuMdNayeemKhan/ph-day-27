@@ -16,7 +16,7 @@ mydata.pop();
 // console.log(mydata);
 
 //shift unshift
-mydata.shift();
+// mydata.shift();
 // console.log(mydata);
 
 //includes
@@ -25,3 +25,7 @@ mydata.includes(22);
 
 //indexOf
 console.log(mydata.indexOf(22));
+
+//is array
+
+console.log(Array.isArray(mydata));
